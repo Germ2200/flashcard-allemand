@@ -68,7 +68,7 @@ def init_session(sheet: str, window_size: int, pass_score: float):
     st.session_state.all_cards       = cards
     st.session_state.pass_score      = float(pass_score)
     st.session_state.window_size     = int(window_size)
-    st.session_state.swap            = False
+    st.session_state.swap            = True
     st.session_state.next_index      = w
     st.session_state.active_indices  = list(range(w))
     st.session_state.active_pos      = 0
